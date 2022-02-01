@@ -1,0 +1,21 @@
+.soundBtn {
+  width: 100px;
+  height: 400px;
+  background-color: burlywood;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-right: 10px;
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  cursor: grab;
+  transition: transform 0.2s;
+}
+
+/* .soundBtn:hover {
+  transform: scale(0.95);
+} */
+
+.scale {
+  transform: scale(0.95);
+}
